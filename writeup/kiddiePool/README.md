@@ -13,6 +13,9 @@ The command that we use:
 
 convert kiddie_pool.png -swirl -900 kiddie_pool_swirl.png
 
+![image](https://user-images.githubusercontent.com/71739262/94349418-43b0be80-0012-11eb-873f-9f009fe34d34.png)
+
 And then a 'kiddie_pool_swirl.png' should be created in the same folder with the original image
 
 Open it and get the flag!
+![image](https://user-images.githubusercontent.com/71739262/94349438-5fb46000-0012-11eb-90b4-29cee9f4baab.png)
