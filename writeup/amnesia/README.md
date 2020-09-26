@@ -15,13 +15,19 @@ After adding the image to a case on GUI Autopsy, we 'ANALYZE' it, because we don
 'Keyword Search' Tab on the top of the screen.
 
 The keyword that we will use for this scenario is 'flag{'. So type in 'flag{' in the 'Enter the keyword string or expression to search for:' box, keep everything default except the 'Unicode' box. If
-we search using Unicode, a bunch of negative results will be returned back so ASCII is good for now, after that click 'SEARCH'
+we search using 'Unicode', a bunch of negative results will be returned back
+
+This is the result if you run with 'Unicode' searching on:
+
+![ASCII+UNICODE](https://user-images.githubusercontent.com/71739262/94349139-dbf97400-000f-11eb-96ce-ce46ef8eaee3.JPG)
+
+So ASCII is good for now, after that click 'SEARCH'
 
 Now we wait...
 
 After a few seconds or a few minutes depends on your system, there should be only one result appears, choose ASCII to show the result.
 Take the flag!
-
+![image](https://user-images.githubusercontent.com/71739262/94349297-26c7bb80-0011-11eb-89f0-3f124cf362a4.png)
 # For CLI
 
 We will use 'dd' command to extract information and pipe it to 'xxd' command to show it on hexadecimal. At the end, we will use 'grep' to find what we need
@@ -36,3 +42,5 @@ dd bs=1024 if=image.bin | xxd | grep flag{ -A 6
 Now we wait...
 
 Output of the command should contain the flag. Grab it!
+![CLI](https://user-images.githubusercontent.com/71739262/94349285-0ef03780-0011-11eb-968f-94b4a402a2cf.JPG)
+
