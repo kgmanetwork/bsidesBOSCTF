@@ -19,7 +19,7 @@ we search using Unicode, a bunch of negative results will be returned back so AS
 
 Now we wait...
 
-After a few seconds or a few minutes depends on your system, there should be only one result appears.
+After a few seconds or a few minutes depends on your system, there should be only one result appears, choose ASCII to show the result.
 Take the flag!
 
 # For CLI
