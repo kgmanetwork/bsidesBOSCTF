@@ -42,5 +42,5 @@ dd bs=1024 if=image.bin | xxd | grep flag{ -A 6
 Now we wait...
 
 Output of the command should contain the flag. Grab it!
-![image](https://user-images.githubusercontent.com/71739262/94349314-5e366800-0011-11eb-867c-030d308ec549.png)
+![CLI](https://user-images.githubusercontent.com/71739262/94349400-1401b680-0012-11eb-8472-471d05fbaa45.JPG)
 
